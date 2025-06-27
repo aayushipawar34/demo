@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css">
+    <title>Nested Sidebar</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="h2.css">
+
+</head>
+<body> <!-- Navbar -->
+     <input type="checkbox" id="sidebar-toggle" hidden>
+
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <label for="sidebar-toggle" class="sidebar-btn">☰ Menu</label>
+      <center><h1>BVLGARI</h1></center>
+      <div class="icon">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-user"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sidebar -->
+  <nav class="sidebar">
+    <label for="sidebar-toggle" class="close-btn">&times; Close</label>
+    <h5>COLLECTIONS</h5>
+    <ul>
+      <!-- Jewellery Menu -->
+      <li>High Jewellery</li>
+      <li>
+        <label for="jewellery-toggle">Jewellery</label>
+        <input type="checkbox" id="jewellery-toggle" hidden>
+        <div class="submenu">
+          <label for="jewellery-toggle" class="close-submenu">&times; Back</label>
+          <ul class="collection-list">
+            <li>Rings
+              <figure>
+                <img src="1.png">
+                <figcaption>Serpenti</figcaption>
+              </figure>
+              <figure>
+                <img src="2.png">
+                <figcaption>B.zero1</figcaption>
+              </figure>
+            </li>
+            <li>Necklaces
+              <figure><img src="3.png"><figcaption>Divas' Dream</figcaption></figure>
+              <figure><img src="Screenshot 2025-02-15 104155.png"><figcaption>Bvlgari Bvlgari</figcaption></figure>
+            </li>
+            <li>Bracelets
+              <figure><img src="5.png"><figcaption>Bvlgari Tubogas</figcaption></figure>
+              <figure><img src="6.png"><figcaption>Bvlgari Cabochon</figcaption></figure>
+            </li>
+            <li>Earrings
+              <figure><img src="7.png"><figcaption>Save the Children</figcaption></figure>
+              <figure><img src="8.png"><figcaption>Other Collection</figcaption></figure>
+            </li>
+            <li>Engagement & Wedding</li>
+            <a href="next.html"><li>Discover All</li></a>
+          </ul>
+        </div>
+      </li>
+
+      <!-- Watches -->
+      <li>
+        <label for="watches-toggle">Watches</label>
+        <input type="checkbox" id="watches-toggle" hidden>
+        <div class="submenu">
+          <label for="watches-toggle" class="close-submenu">&times; Back</label>
+          <ul class="collection-list">
+            <li>Women's
+              <figure><img src="b1.png"><figcaption>Serpenti</figcaption></figure>
+              <figure><img src="b2.png"><figcaption>Octo</figcaption></figure>
+            </li>
+            <li>Men's
+              <figure><img src="b3.png"><figcaption>Aluminium</figcaption></figure>
+              <figure><img src="b4.png"><figcaption>Bvlgari Bvlgari</figcaption></figure>
+            </li>
+            <a href="#"><li>Discover All</li></a>
+          </ul>
+        </div>
+      </li>
+
+      <!-- Bags -->
+      <li>
+        <label for="Bags-toggle">Bags & Accessories</label>
+        <input type="checkbox" id="Bags-toggle" hidden>
+        <div class="submenu">
+          <label for="Bags-toggle" class="close-submenu">&times; Back</label>
+          <ul class="collection-list">
+            <li>Bags
+              <figure><img src="c1.png"><figcaption>Aluminium</figcaption></figure>
+              <figure><img src="c2.png"><figcaption>Bvlgari Bvlgari</figcaption></figure>
+            </li>
+            <li>Wallets
+              <figure><img src="c3.png"><figcaption>Wallet</figcaption></figure>
+              <figure><img src="c4.png"><figcaption>Wallet</figcaption></figure>
+            </li>
+            <li>Textiles
+              <figure><img src="c5.png"><figcaption>Textile</figcaption></figure>
+              <figure><img src="c6.png"><figcaption>Textile</figcaption></figure>
+            </li>
+            <li>Eyewear</li>
+            <li>Other Accessories</li>
+            <a href="#"><li>Discover All</li></a>
+          </ul>
+        </div>
+      </li>
+
+      <!-- Fragrances -->
+      <li>
+        <label for="Fragrances-toggle">Fragrances</label>
+        <input type="checkbox" id="Fragrances-toggle" hidden>
+        <div class="submenu">
+          <label for="Fragrances-toggle" class="close-submenu">&times; Back</label>
+          <ul class="collection-list">
+            <li>Women's
+              <figure><img src="d1.png"><figcaption>Perfume 1</figcaption></figure>
+              <figure><img src="d2.png"><figcaption>Perfume 2</figcaption></figure>
+            </li>
+            <li>Men's
+              <figure><img src="d3.png"><figcaption>Perfume 3</figcaption></figure>
+              <figure><img src="d4.png"><figcaption>Perfume 4</figcaption></figure>
+            </li>
+            <a href="#"><li>Discover All</li></a>
+          </ul>
+        </div>
+      </li>
+
+      <!-- Gifts -->
+      <li>
+        <label for="Gift-toggle">Gifts</label>
+        <input type="checkbox" id="Gift-toggle" hidden>
+        <div class="submenu">
+          <label for="Gift-toggle" class="close-submenu">&times; Back</label>
+          <ul class="collection-list">
+            <li>Valentine's Day</li>
+            <li>New Arrivals</li>
+            <li>For Her</li>
+            <li>For Him</li>
+            <li>Little Luxuries</li>
+            <a href="#"><li>Discover All</li></a>
+          </ul>
+        </div>
+      </li>
+      
+  <li><a href="hospitality.html" style="text-decoration: none; color: inherit;"><b>Hospitality</b></a></li>
+  <li><a href="inside-bvlgari.html" style="text-decoration: none; color: inherit;"><b>Inside BVLGARI</b></a></li>
+  <li><a href="contact.html" style="text-decoration: none; color: inherit;"><b>Contact Us</b></a></li>
+  <li><a href="services.html" style="text-decoration: none; color: inherit;"><b>Services</b></a></li>
+  <li><a href="store.html" style="text-decoration: none; color: inherit;"><b>Store Locator</b></a></li>
+  <li>
+    <a href="hotel.html" style="text-decoration: none; color: inherit;">
+      <b>Hotels & Resorts</b> <i class="fa-solid fa-up-right-from-square"></i>
+    </a>
+  </li>
+</ul>
+
+  </nav>
+<br>
+<div class="video-container">
+    <video width="1520" height="950"  autoplay muted loop>
+        <source src="mobile_yt0dmv.mp4" type="video/mp4">
+      </video>
+      <div class="video-text">
+      <h3 class="h3">Infinite Evolutions</h3>
+      <p class="p">The infinite shifts of nature behind the infinite evolutions of<br> Serpenti.</p><br>
+      <h4 class="H4">DISCOVER THE CREATIONS</h4>
+    </div>
+</div>
+<div>
+<img src="bg.jpg" class="img-fluid" alt="...">
+
+<div class="bg-section" style="position: relative;">  
+  <div class="img-text">
+    <h3>Captivating Moments</h3>
+    <p>Inspired by the perpetual cycle of nature, Serpenti watches<br> explore the very essence of time.</p>
+    <h4 class="H4">DISCOVER THE CREATIONS</h4>
+  </div>
+</div>
+
+
+<div class="bg2">
+    <img src="bg3.png" width="1520" height="150" class="img-fluid" alt="...">
+    
+    <div class="img2-text">
+    <h3>Versatile Serpenti</h3>
+    <p>The multifaceted essence of Serpenti, captured into iconic bags<br> and accessories.</p>
+    <h4 class="H4">DISCOVER THE CREATIONS</h4>
+    </div>
+    </div>
+
+    
+
+    
+    <div class="container mt-5">
+        <div id="carouselExample" class="carousel slide" data-mdb-ride="carousel">
+            
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="r1.png" class="d-block w-100" alt="Necklace 1">
+                    <center><figcaption><h4>Serpenti Viper Necklace</h4></figcaption></center>
+                </div>
+                <div class="carousel-item">
+                    <img src="r2.png" class="d-block w-100" alt="Necklace 2">
+                    <center><figcaption><h4>Serpenti Viper Bracelet</h4></figcaption></center>
+                </div>
+                <div class="carousel-item">
+                    <img src="r3.png" class="d-block w-100" alt="Necklace 3">
+                    <center><figcaption><h4>Serpenti Tubogas Necklace</h4></figcaption></center>
+                </div>
+                <div class="carousel-item">
+                    <img src="r4.png" class="d-block w-100" alt="Necklace 3">
+                    <center><figcaption><h4>Serpenti Viper Bracelet</h4></figcaption></center>
+                </div>
+                <div class="carousel-item">
+                    <img src="r5.png" class="d-block w-100" alt="Necklace 3">
+                    <center><figcaption><h4>Serpenti Viper Bracelet</h4></figcaption></center>
+                </div>
+                <div class="carousel-item">
+                    <img src="r6.png" class="d-block w-100" alt="Necklace 3">
+                    <center><figcaption><h4>Serpenti Viper Ring</h4></figcaption></center>
+                </div>
+                <div class="carousel-item">
+                    <img src="r7.png" class="d-block w-100" alt="Necklace 3">
+                    <center><figcaption><h4>Serpenti Viper Earrings</h4></figcaption></center>
+                </div> <div class="carousel-item">
+                    <img src="r8.png" class="d-block w-100" alt="Necklace 3">
+                    <center><figcaption><h4>Serpenti Tubogas Ring</h4></figcaption></center>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExample" data-mdb-slide="prev">
+                <i class="bi bi-chevron-left"></i>
+            </button>
+            <button class="carousel-control-next" type="button" data-mdb-target="#carouselExample" data-mdb-slide="next">
+               <i class="bi bi-chevron-left"></i>
+            </button>
+    
+        </div>
+    </div><br><br>
+    &nbsp;&nbsp;<h3 class="text-center">Our services for you</h3>
+<br><br>
+
+
+    <div class="card-group gap-30">
+          
+        <div class="col-md-4">
+            <a href="store.html" style="text-decoration: none; color: inherit;">
+        <div class="card">
+          <img src="e1.jpg" width="50" height="450" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Find a store</h5>
+            <p class="card-text">Find the nearest Bvlgari boutique or explore our locations worldwide.</p>
+          </div>
+        </a>
+        </div>
+    </div>
+    <div class="col-md-4">
+         <a href="appointment.html" style="text-decoration: none; color: inherit;">
+        <div class="card">
+          <img src="e2.jpg" width="50" height="450" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Book an appointment</h5>
+            <p class="card-text">Whether in person or online,enjoy a personalised shopping experience at Bvlgari.</p>
+          </div>
+        </div>
+    </a>
+        </div>
+        <div class="col-md-4">
+            <a href="support.html" style="text-decoration: none; color: inherit;">
+        <div class="card">
+          <img src="e3.jpg" width="10" height="450" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Expert advice</h5>
+            <p class="card-text">The perfect advice is always at hand with our customer care service.</p>
+          </div>
+        </div>
+    </a>
+        </div>
+      </div>
+
+      <div class="bg3">
+  <img src="hotel2.jpg" width="1520" height="150" class="img-fluid" alt="...">
+
+  <div class="img3-text">
+    <h3>Hotels & Resorts</h3>
+    <p>
+      Bvlgari Hotels & Resorts aim to be the leading <br>
+      luxury hospitality collection in the world<br>
+      and accessories.
+    </p>
+    <h4 class="H4">DISCOVER</h4>
+  </div>
+</div>
+
+       <div class="d-flex flex-column align-items-center text-center">
+        <h3>Join the Bvlgari Universe</h3>
+        <form class="row g-3">
+            <div class="col-auto">
+                <p>Discover its magnificent icons, personalised services and<br> unique experiences</p>
+
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-dark mb-3">SIGN UP</button>
+            </div>
+          </form>
+
+       </div>
+       <footer class="bg-body-tertiary text-center text-lg-start">
+        <!-- Grid container -->
+        <h1>BVLGARI</h1><br><br>
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+               
+              <h5 class="text-uppercase">Contact Hub</h5><br>
+      
+              <ul class="list-unstyled mb-0"><br>
+                <li>
+                    <a href="#!" class="text-body">Store Locator</a><br>
+                  </li><br>
+                <li>
+                  <a href="#!" class="text-body"> Contact & Appointments</a><br>
+                </li><br>
+                <li>
+                  <a href="#!" class="text-body">Book an appointment</a><br>
+                </li><br>
+              </ul>
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-0">customer Care</h5><br>
+      
+              <ul class="list-unstyled"><br>
+                <li>
+                  <a href="#!" class="text-body">Services</a><br>
+                </li><br>
+                <li>
+                  <a href="#!" class="text-body"> FAQ</a><br>
+                </li><br>
+              </ul>
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">About Bvlgari</h5><br>
+      
+              <ul class="list-unstyled mb-0"><br>
+                <li>
+                  <a href="#!" class="text-body"> Brand protection</a><br>
+                </li><br>
+                <li>
+                  <a href="#!" class="text-body">Ethics & Compliance</a><br>
+                </li><br>
+                <li>
+                  <a href="#!" class="text-body"> People & Careers</a><br>
+                </li><br>
+                <li>
+                  <a href="#!" class="text-body">Accessibility</a><br>
+                </li><br>
+                <li>
+                    <a href="#!" class="text-body">Fondazione Bvlgari</a><br>
+                  </li><br>
+              </ul>
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-0">Privacy & Legal</h5><br>
+      
+              <ul class="list-unstyled"><br>
+                <li>
+                  <a href="#!" class="text-body">Cookies Settings</a><br>
+                </li><br>
+                <li>
+                  <a href="#!" class="text-body">Privacy center</a><br>
+                </li><br>
+                <li>
+                  <a href="#!" class="text-body">Terms of use</a><br>
+                </li><br>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+        <p style="margin-left: 50px;">Change Country/Region&nbsp;<b>India</b></p>
+        <section class="mb-4 social-icons">
+            <!-- Facebook -->
+            <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+      
+            <!-- Twitter -->
+            <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+      
+            <!-- Google -->
+            <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button">
+              <i class="fa-brands fa-google"></i>
+            </a>
+      
+            <!-- Instagram -->
+            <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+      
+            <!-- Linkedin -->
+            <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button">
+              <i class="fa-brands fa-linkedin-in"></i></a>
+      
+          <!-- GitHub -->
+            <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button">
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+          </section>
+
+        <!-- Copyright -->
+        <div class="text-center p-3 " style="background-color: rgba(0, 0, 0, 0.05);">
+            BVLGARI® Official Website India
+        </div>
+
+        <!-- Copyright -->
+      </footer>
+       
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"></script>
+    
+    
+
+
+</body>
+</html>
